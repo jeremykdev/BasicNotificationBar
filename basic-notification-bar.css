@@ -1,0 +1,31 @@
+﻿/* decorate notification bar container */
+.custom-basic-notification-bar {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	border-bottom: 1px solid #666666;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	text-align: center;
+	opacity: .7;
+}
+
+/* decorate close icon of notification bar */
+a.custom-basic-notification-bar-icon-wrapper {			
+	float: right;
+	margin-right: 2%;
+}
+
+
+
+/* decorate container for links, if any*/
+span.custom-basic-notification-bar-link-container {
+	display: inline;
+	margin-left: 1em;
+}
+
+/* decorate links inside notification bar */
+a.custom-basic-notification-bar-link {
+	margin-left: .5em;
+	font-size: smaller;
+}
